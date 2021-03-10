@@ -1,0 +1,132 @@
+/***** BASE STYLES *****/
+body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 30px 15px 30px;
+    width: 400px;
+}
+
+/***** Bordered Reviews *****/
+.third-width-border {
+    border-color: #dedbdc;
+    border-style: none solid none solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 30px 15px 30px;
+    width: 400px;
+}
+
+header h1 {
+    color: #77a466;
+    font-size: 30px;
+    padding: 60px 0 26px 0px;
+    text-transform: uppercase;
+}
+/***** Multi-colored Title *****/
+header h1 span {
+    color: black;
+}
+
+nav {
+    float: right; 
+    padding: 75px 0px 0px 0px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#photo img {
+    border: #77a466;
+    border-style: solid none solid none;
+    border-width: 3px;
+}
+
+#photo h2 {
+    color: #77a466;
+    font-size: 18px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+#photo p {
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0 0 30px 0;
+}
+
+/***** Border above Thirds Section *****/
+#photo .full-width {
+    border-color: #dedbdc;  
+    border-style: none none solid none;
+    border-width: 1px;
+}
+
+#features h4 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/***** Specials *****/
+#features ul {
+    color: #77a466;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    list-style-type: none;
+    padding: 0;
+}
+
+#features p {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/***** Border below Thirds Section *****/
+footer .full-width {
+    border-color: #dedbdc;
+    border-style: solid none none none;
+    border-width: 1px;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer p span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
